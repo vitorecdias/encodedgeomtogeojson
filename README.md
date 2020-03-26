@@ -1,6 +1,7 @@
 # encodedgeomtogeojson
 Decode geometry to a GEOJSON file.
-Install Node JS and NPM, run it with:
+
+Install Node JS and NPM and run it with:
 
 npm install
 
