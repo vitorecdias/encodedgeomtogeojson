@@ -1,7 +1,7 @@
 var fs = require("fs")
 var polyline = require('polyline')
 //past here the encoded geometry
-var dat = polyline.decode('l|lxBhcjkGIh@|GHDYLo@BC@A@?DAn@?~ALrI|APDLFXRLLFJHPFTBN?LE\\?XDVFNgArBm@dAQ^G\\V`@dBnC^l@dA`BVZLBpBpA|A`AjDrBlC?@bC@dC@bC@dC@dC@fCBjC@nC@dCbH?|FEpHC?nAbHFbEFCnEKlEDF?FChB?zC?PA\\?F?b@|CVfDVlAJf@FX@[vFpCRrCVpCR_@tF_@rFc@zF?FAFAF[`EAPEb@YtEAFAJOrBAXYXMCGJ')
+var dat = polyline.decode('repxB|fqkGN_KhC_JnDeOiA}_@iA{T`@uFnAo]kBuMJcKLmNR}Ie@{J{CkQmAuIaFcK{AaKd@qNvA_IxCsPto@cu@pA}c@')
 
 dat.forEach(element => {
    console.log(element) 
